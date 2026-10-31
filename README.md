@@ -1,4 +1,6 @@
 **Distributed Beauty Salon Booking System**
+
+
 Overview:
 
 This project is a distributed booking system for beauty salons. The system allows customers to book and cancel beauty appointments and replicates booking data across multiple nodes. It’s inspired by online beauty booking platforms back in my hometown.
@@ -45,8 +47,9 @@ The leader periodically announces its latest sequence number. If a follower disc
 
 This allows followers to recover from temporary crashes and lost messages.
 
+## Project Structure
 
-**Project Structure**
+```
 Distributed Booking system/
 ├── salonbook/
 │   ├── types.py
@@ -64,6 +67,8 @@ Distributed Booking system/
 ├── demo.py
 ├── README.md
 └── .gitignore
+```
+
 
 **Technologies**
 Python 3
